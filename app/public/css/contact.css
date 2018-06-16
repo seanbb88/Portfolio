@@ -1,0 +1,107 @@
+body {
+    background-image: url(../media/water.jpg); 
+}
+
+/* Content Body */
+.main-div {
+    width: 60%; 
+    height: 400px; 
+    margin: auto;
+    margin-top: 110px; 
+    background-image: url("../media/transparent.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;  
+    border-radius: 25px; 
+}
+
+/* Header */
+.header {
+    text-align: center; 
+    width: 80%; 
+    margin: auto; 
+    height: 40px;
+    border-bottom: 1px  rgb(15, 15, 49) solid; 
+    line-height: 40px;  
+    font-size: 24px; 
+}
+
+/* Contact Form */
+.form {
+ margin-left: 45px;  
+ display: block;  
+ margin-top: 35px; 
+}
+
+.form-input{
+    margin-bottom: 15px;
+    background-color: rgb(175, 200, 238); 
+}
+
+#yourmessage{
+    width: 70%; 
+    height: 65px;
+}
+
+#name {
+    width: 25%; 
+}
+
+#emailaddress {
+    width: 35%; 
+}
+
+/*Buttons */
+.button-style {
+    background: transparent;
+    border: none;  
+    margin-top: 35px; 
+    margin-left: 15px; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+.links{
+    list-style-type: none; 
+    display: flex; 
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.links-div {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 56px; 
+    position: relative; 
+}
+
+li {
+    margin-right: 35px; 
+}
+
+.linkin {
+    color: rgb(14, 14, 151); 
+}
+
+.git-it {
+    color: rgb(163, 52, 52); 
+}
+
+.emailz {
+    color: rgb(46, 162, 216); 
+}
+
+.button-style {
+    background: transparent;
+    border: none;   
+    font-weight: bold; 
+    color: grey;
+    position: absolute;
+    right: 8px; 
+    bottom: 8px; 
+    font-size: 18px; 
+
+}

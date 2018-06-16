@@ -1,0 +1,210 @@
+body {
+    background-image: url(../media/water.jpg); 
+}
+
+/* Content Body */
+.main-div { 
+    width: 60%; 
+    height: 400px;
+    margin: auto;
+    margin-top: 110px;
+    background-image: url("../media/transparent.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    border-radius: 25px; 
+    
+}
+
+/* Header */
+.header {
+    text-align: center; 
+    width: 80%; 
+    margin: auto; 
+    height: 40px;
+    border-bottom: 1px  rgb(15, 15, 49) solid; 
+    line-height: 40px;  
+    font-size: 24px; 
+}
+
+/* Portfolio Links */
+.portfolio-content {
+    display: flex; 
+    flex-direction: row; 
+    height: 92%;
+    width: 100%; 
+}
+.portfolio-link-div {
+    width: 35%; 
+    display: flex; 
+    margin-top: 40px; 
+    flex-direction: column; 
+    justify-content: space-around; 
+
+}
+
+.app-display {
+    width:84%;
+    height: 225px;
+    margin-top: 30px; 
+    margin-right: 15px;
+    border:  1px  rgb(15, 15, 49) solid; 
+}
+
+.portfolio-link-display {
+    width: 65%; 
+    height: 368px; 
+    position: relative; 
+    
+}
+
+.show-hide-app {
+    position: absolute;
+    width: 100%; 
+}
+
+/* Portfolio Buttons */
+.portfolio-button {
+    width: 80%; 
+    margin-left: 20px; 
+    background: transparent; 
+    border: 1px rgb(15, 15, 49) solid; 
+    border-radius: 25px; 
+    color: white; 
+    font-size: 15px; 
+    text-align: left; 
+
+}
+
+#first-button{
+    margin-top: 30px; 
+}
+
+#last-button {
+    margin-bottom: 20px; 
+}
+
+.button-style {
+    background: transparent;
+    border: none;   
+    font-weight: bold; 
+    color: gray; 
+    position: absolute;
+    right: 8px; 
+    bottom: 8px; 
+    font-size: 18px; 
+
+}
+
+p {
+    color: white; 
+    font-size: 12px; 
+    margin-right: 10px; 
+}
+
+/* app display divs */
+
+#setlistr {
+    visibility: hidden; 
+}
+
+#eat-up {
+    visibility: hidden; 
+}
+
+#gif-generator {
+    visibility: hidden;
+}
+
+#jim-trivia {
+    visibility: hidden;
+}
+
+#rtj-game {
+    visibility: hidden;
+}
+
+#match-maker {
+    visibility: hidden;
+}
+
+#train-thing {
+    visibility: hidden;
+}
+
+
+/*
+.m-fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+  }
+.m-fadeIn {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+  }
+  */
+
+  @media screen and (max-width: 800px){
+
+    .portfolio-content {
+        display: flex; 
+        flex-direction: column; 
+
+    }
+
+    .portfolio-link-display {
+        width: 100%; 
+    }
+
+    .portfolio-link-div {
+        
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%; 
+        height: 150px;
+        margin-top: 10px; 
+        align-content: flex-start; 
+         
+    }
+
+    .portfolio-button {
+        margin-left: 5px; 
+        margin-right: 5px; 
+        width: 140px;
+        
+        
+    }
+
+    #first-button {
+        margin-top: 0; 
+    }
+
+    a {
+        height: 30px;
+    }
+
+    .main-div {
+        height: 431px;
+    }
+
+    .app-display {
+        margin-top: 20px; 
+        margin-left: 0px; 
+        margin-right: 0px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 175px;
+    }
+
+    #last-button {
+        margin-bottom: 0px; 
+    }
+
+    p {
+        margin-left: 10px; 
+    }
+
+}
